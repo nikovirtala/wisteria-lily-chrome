@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EDE1FF"/><stop offset="1" stop-color="#FEF8EC"/></linearGradient>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#8556CC" flood-opacity="0.22"/></filter>
+  </defs>
+  <rect width="1280" height="800" fill="url(#bg)"/>
+  <g filter="url(#sh)"><svg x="100" y="72" width="1080" height="630" viewBox="0 0 960 560" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs><clipPath id="win"><rect width="960" height="560" rx="14"/></clipPath></defs>
+  <g clip-path="url(#win)">
+    <!-- frame -->
+    <rect width="960" height="560" fill="#F0E9D6"/>
+    <circle cx="26" cy="24" r="6.5" fill="#FF7A5F"/><circle cx="48" cy="24" r="6.5" fill="#E9A149"/><circle cx="70" cy="24" r="6.5" fill="#58CC6D"/>
+    <!-- background tab -->
+    <text x="330" y="29" font-size="13" fill="#6B675C">Kiro — Docs</text>
+    <rect x="455" y="16" width="1" height="18" fill="#E6D7B2"/>
+    <text x="475" y="29" font-size="13" fill="#6B675C">nikovirtala.dev</text>
+    <text x="620" y="29" font-size="18" fill="#A66BFF">+</text>
+    <!-- active tab -->
+    <path d="M96 44 Q104 44 104 36 L104 18 Q104 10 112 10 L296 10 Q304 10 304 18 L304 36 Q304 44 312 44 Z" fill="#FEF8EC"/>
+    <circle cx="124" cy="25" r="6" fill="#A66BFF"/>
+    <text x="138" y="30" font-size="13" fill="#8556CC" font-weight="600">Wisteria Lily</text>
+    <text x="280" y="30" font-size="13" fill="#8556CC">×</text>
+    <!-- toolbar -->
+    <rect y="44" width="960" height="44" fill="#FEF8EC"/>
+    <g fill="none" stroke="#A66BFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M30 66 h14 M30 66 l6 -6 M30 66 l6 6"/>
+      <path d="M78 66 h-14 M78 66 l-6 -6 M78 66 l-6 6" opacity="0.45"/>
+      <path d="M108 60 a8 8 0 1 0 2 6 M110 56 v5 h-5"/>
+      <circle cx="900" cy="66" r="9"/>
+      <path d="M930 60 v0.1 M930 66 v0.1 M930 72 v0.1" stroke-width="3.2"/>
+    </g>
+    <rect x="136" y="51" width="740" height="30" rx="15" fill="#F2EDDE"/>
+    <text x="160" y="71" font-size="14" fill="#005661">github.com/nikovirtala/wisteria-lily-chrome</text>
+    <!-- bookmarks -->
+    <rect y="88" width="960" height="30" fill="#FEF8EC"/>
+    <g font-size="12" fill="#005661">
+      <circle cx="24" cy="103" r="5" fill="#B889FF"/><text x="36" y="107">Kiro</text>
+      <circle cx="92" cy="103" r="5" fill="#00B368"/><text x="104" y="107">Strava</text>
+      <circle cx="172" cy="103" r="5" fill="#FA8900"/><text x="184" y="107">longplay</text>
+      <circle cx="260" cy="103" r="5" fill="#FF5792"/><text x="272" y="107">ark</text>
+    </g>
+    <rect y="118" width="960" height="1" fill="#F0E7D1"/>
+    <!-- new tab page -->
+    <rect y="119" width="960" height="441" fill="#FEF8EC"/>
+    <text x="480" y="250" font-size="64" font-weight="600" text-anchor="middle" fill="#A66BFF" letter-spacing="-1">wisteria lily</text>
+    <rect x="250" y="285" width="460" height="46" rx="23" fill="#F2EDDE"/>
+    <circle cx="280" cy="308" r="8" fill="none" stroke="#8556CC" stroke-width="2.2"/>
+    <path d="M286 314 l6 6" stroke="#8556CC" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="304" y="313" font-size="15" fill="#6B675C">Search or type a URL</text>
+    <g font-size="12" fill="#005661" text-anchor="middle">
+      <circle cx="330" cy="400" r="24" fill="#EDE1FF"/><circle cx="330" cy="400" r="9" fill="#A66BFF"/><text x="330" y="444">Kiro</text>
+      <circle cx="430" cy="400" r="24" fill="#EDE1FF"/><circle cx="430" cy="400" r="9" fill="#00B368"/><text x="430" y="444">Strava</text>
+      <circle cx="530" cy="400" r="24" fill="#EDE1FF"/><circle cx="530" cy="400" r="9" fill="#FA8900"/><text x="530" y="444">longplay</text>
+      <circle cx="630" cy="400" r="24" fill="#EDE1FF"/><circle cx="630" cy="400" r="9" fill="#FF5792"/><text x="630" y="444">ark</text>
+    </g>
+    <text x="940" y="545" font-size="12" text-anchor="end" fill="#8556CC">Customize Chrome</text>
+  </g>
+</svg>
+</g>
+  <text x="640" y="760" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#005661">Wisteria purple accents on a day lily cream background</text>
+</svg>
