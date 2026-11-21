@@ -13,7 +13,7 @@ It's the browser companion to the Wisteria Lily color theme for Kiro and VS Code
 
 What you get:
 • A cream toolbar and New Tab page with a sandy tab strip
-• Wisteria purple tab titles, toolbar icons and New Tab logo
+• Wisteria purple tab titles and toolbar icons
 • Deep teal text in the address bar and bookmarks
 • A deep teal frame for Incognito windows, so you always know where you are
 • Text colors checked against WCAG AA contrast (4.5:1)
