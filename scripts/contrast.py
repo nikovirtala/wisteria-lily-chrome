@@ -13,7 +13,7 @@ pairs=[("tab_text","toolbar",4.5),("tab_background_text","background_tab",4.5),
 ("tab_background_text_incognito","frame_incognito",4.5),("tab_background_text_incognito_inactive","frame_incognito_inactive",4.5),
 ("toolbar_button_icon","toolbar",3),("toolbar_text","toolbar",4.5),("bookmark_text","toolbar",4.5),
 ("omnibox_text","omnibox_background",4.5),("ntp_text","ntp_background",4.5),("ntp_link","ntp_background",4.5),
-("ntp_logo","ntp_background",3),("ntp_text","ntp_header",4.5)]
+("ntp_text","ntp_header",4.5)]
 failed=0
 for f,b,req in pairs:
     r=cr(m[f],m[b]); ok=r>=req; failed+=not ok

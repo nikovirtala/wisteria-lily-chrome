@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Wisteria Lily",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Wisteria purple accents on a day lily cream background. Companion to the Wisteria Lily theme for Kiro and VS Code.",
   "author": "Niko Virtala",
   "homepage_url": "https://github.com/nikovirtala/wisteria-lily-chrome",
@@ -32,14 +32,7 @@
       "ntp_background": [254, 248, 236],
       "ntp_text": [0, 86, 97],
       "ntp_link": [133, 86, 204],
-      "ntp_header": [237, 225, 255],
-      "ntp_logo": [166, 107, 255],
-      "ntp_section": [237, 225, 255],
-      "ntp_section_text": [0, 86, 97],
-      "ntp_section_link": [133, 86, 204]
-    },
-    "properties": {
-      "ntp_logo_alternate": 1
+      "ntp_header": [237, 225, 255]
     }
   }
 }

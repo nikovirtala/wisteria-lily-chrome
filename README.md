@@ -33,8 +33,9 @@ from that folder.
   **Customize Chrome** on the New Tab page (or **Settings → Appearance → Mode**)
   and pick **Light**. In Dark or Device mode, Chrome draws its own dark menus and
   panels against the cream frame.
-- **Purple Google logo.** The theme asks for a single-color logo on the New Tab
-  page and tints it wisteria purple.
+- **Yellow Google logo.** Chrome ignores the theme's logo color. It tints the
+  Google logo and the shortcut circles on the New Tab page itself, from the hue
+  of the cream background, so they come out a soft day lily yellow.
 
 ### Update
 
@@ -72,7 +73,6 @@ to the editor colors they borrow from.
 | `ntp_text` | `#005661` | `editor.foreground` |
 | `ntp_link` | `#8556CC` | `banner.iconForeground` |
 | `ntp_header` | `#EDE1FF` | `statusBarItem.activeBackground` |
-| `ntp_logo` | `#A66BFF` | `editorCursor.foreground` |
 | `frame_incognito` | `#003B42` | `terminal.ansiBlack` |
 | `frame_incognito_inactive` | `#004D57` | `terminal.ansiBrightBlack` |
 | `tab_background_text_incognito` | `#BBC3C4` | `terminal.ansiBrightWhite` |
@@ -83,8 +83,8 @@ tell at a glance which window you're in.
 
 ### Contrast
 
-All text meets WCAG 2 AA (4.5:1) against its background, and toolbar icons and the
-New Tab logo meet the 3:1 non-text minimum. Where an editor color was too pale for
+All text meets WCAG 2 AA (4.5:1) against its background, and toolbar icons meet
+the 3:1 non-text minimum. Where an editor color was too pale for
 Chrome's small tab titles, the theme uses a darker sibling from the same palette.
 Check after any color change:
 

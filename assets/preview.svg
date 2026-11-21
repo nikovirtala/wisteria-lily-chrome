@@ -36,16 +36,16 @@
     <rect y="118" width="960" height="1" fill="#F0E7D1"/>
     <!-- new tab page -->
     <rect y="119" width="960" height="441" fill="#FEF8EC"/>
-    <text x="480" y="250" font-size="64" font-weight="600" text-anchor="middle" fill="#A66BFF" letter-spacing="-1">wisteria lily</text>
+    <text x="480" y="250" font-size="64" font-weight="600" text-anchor="middle" fill="#F7C560" letter-spacing="-1">Google</text>
     <rect x="250" y="285" width="460" height="46" rx="23" fill="#F2EDDE"/>
     <circle cx="280" cy="308" r="8" fill="none" stroke="#8556CC" stroke-width="2.2"/>
     <path d="M286 314 l6 6" stroke="#8556CC" stroke-width="2.2" stroke-linecap="round"/>
     <text x="304" y="313" font-size="15" fill="#6B675C">Search or type a URL</text>
     <g font-size="12" fill="#005661" text-anchor="middle">
-      <circle cx="330" cy="400" r="24" fill="#EDE1FF"/><circle cx="330" cy="400" r="9" fill="#A66BFF"/><text x="330" y="444">Kiro</text>
-      <circle cx="430" cy="400" r="24" fill="#EDE1FF"/><circle cx="430" cy="400" r="9" fill="#00B368"/><text x="430" y="444">Strava</text>
-      <circle cx="530" cy="400" r="24" fill="#EDE1FF"/><circle cx="530" cy="400" r="9" fill="#FA8900"/><text x="530" y="444">longplay</text>
-      <circle cx="630" cy="400" r="24" fill="#EDE1FF"/><circle cx="630" cy="400" r="9" fill="#FF5792"/><text x="630" y="444">ark</text>
+      <circle cx="330" cy="400" r="24" fill="#F9D68F"/><circle cx="330" cy="400" r="9" fill="#A66BFF"/><text x="330" y="444">Kiro</text>
+      <circle cx="430" cy="400" r="24" fill="#F9D68F"/><circle cx="430" cy="400" r="9" fill="#00B368"/><text x="430" y="444">Strava</text>
+      <circle cx="530" cy="400" r="24" fill="#F9D68F"/><circle cx="530" cy="400" r="9" fill="#FA8900"/><text x="530" y="444">longplay</text>
+      <circle cx="630" cy="400" r="24" fill="#F9D68F"/><circle cx="630" cy="400" r="9" fill="#FF5792"/><text x="630" y="444">ark</text>
     </g>
     <text x="940" y="545" font-size="12" text-anchor="end" fill="#8556CC">Customize Chrome</text>
   </g>
