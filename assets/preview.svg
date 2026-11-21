@@ -8,7 +8,7 @@
     <text x="330" y="29" font-size="13" fill="#6B675C">Kiro — Docs</text>
     <rect x="455" y="16" width="1" height="18" fill="#E6D7B2"/>
     <text x="475" y="29" font-size="13" fill="#6B675C">nikovirtala.dev</text>
-    <text x="620" y="29" font-size="18" fill="#973CFF">+</text>
+    <text x="620" y="29" font-size="18" fill="#A66BFF">+</text>
     <!-- active tab -->
     <path d="M96 44 Q104 44 104 36 L104 18 Q104 10 112 10 L296 10 Q304 10 304 18 L304 36 Q304 44 312 44 Z" fill="#FEF8EC"/>
     <circle cx="124" cy="25" r="6" fill="#A66BFF"/>
@@ -16,7 +16,7 @@
     <text x="280" y="30" font-size="13" fill="#8556CC">×</text>
     <!-- toolbar -->
     <rect y="44" width="960" height="44" fill="#FEF8EC"/>
-    <g fill="none" stroke="#973CFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <g fill="none" stroke="#A66BFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
       <path d="M30 66 h14 M30 66 l6 -6 M30 66 l6 6"/>
       <path d="M78 66 h-14 M78 66 l-6 -6 M78 66 l-6 6" opacity="0.45"/>
       <path d="M108 60 a8 8 0 1 0 2 6 M110 56 v5 h-5"/>

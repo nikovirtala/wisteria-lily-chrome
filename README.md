@@ -64,7 +64,7 @@ to the editor colors they borrow from.
 | `tab_text` | `#8556CC` | `banner.iconForeground` |
 | `tab_background_text` | `#6B675C` | `tab.inactiveForeground`, darkened |
 | `tab_background_text_inactive` | `#706C60` | `tab.inactiveForeground`, darkened |
-| `toolbar_button_icon` | `#973CFF` | `badge.background` |
+| `toolbar_button_icon` | `#A66BFF` | `activityBar.foreground` |
 | `toolbar_text`, `bookmark_text` | `#005661` | `editor.foreground` |
 | `omnibox_background` | `#F2EDDE` | `editorWidget.background` |
 | `omnibox_text` | `#005661` | `editor.foreground` |
