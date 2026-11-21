@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "Wisteria Lily",
+  "version": "1.0.0",
+  "description": "Wisteria purple accents on a day lily cream background. Companion to the Wisteria Lily theme for Kiro and VS Code.",
+  "author": "Niko Virtala",
+  "homepage_url": "https://github.com/nikovirtala/wisteria-lily-chrome",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "theme": {
+    "colors": {
+      "frame": [240, 233, 214],
+      "frame_inactive": [249, 241, 225],
+      "frame_incognito": [0, 59, 66],
+      "frame_incognito_inactive": [0, 77, 87],
+      "background_tab": [240, 233, 214],
+      "background_tab_inactive": [249, 241, 225],
+      "toolbar": [254, 248, 236],
+      "tab_text": [166, 107, 255],
+      "tab_background_text": [136, 132, 119],
+      "tab_background_text_inactive": [160, 171, 172],
+      "tab_background_text_incognito": [187, 195, 196],
+      "tab_background_text_incognito_inactive": [140, 166, 166],
+      "toolbar_button_icon": [166, 107, 255],
+      "toolbar_text": [0, 86, 97],
+      "bookmark_text": [0, 86, 97],
+      "omnibox_background": [242, 237, 222],
+      "omnibox_text": [0, 86, 97],
+      "ntp_background": [254, 248, 236],
+      "ntp_text": [0, 86, 97],
+      "ntp_link": [133, 86, 204],
+      "ntp_header": [237, 225, 255],
+      "ntp_logo": [166, 107, 255]
+    },
+    "properties": {
+      "ntp_logo_alternate": 1
+    }
+  }
+}
