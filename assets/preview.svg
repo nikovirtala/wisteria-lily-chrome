@@ -5,18 +5,18 @@
     <rect width="960" height="560" fill="#F0E9D6"/>
     <circle cx="26" cy="24" r="6.5" fill="#FF7A5F"/><circle cx="48" cy="24" r="6.5" fill="#E9A149"/><circle cx="70" cy="24" r="6.5" fill="#58CC6D"/>
     <!-- background tab -->
-    <text x="330" y="29" font-size="13" fill="#888477">Kiro — Docs</text>
+    <text x="330" y="29" font-size="13" fill="#6B675C">Kiro — Docs</text>
     <rect x="455" y="16" width="1" height="18" fill="#E6D7B2"/>
-    <text x="475" y="29" font-size="13" fill="#888477">nikovirtala.dev</text>
-    <text x="620" y="29" font-size="18" fill="#A66BFF">+</text>
+    <text x="475" y="29" font-size="13" fill="#6B675C">nikovirtala.dev</text>
+    <text x="620" y="29" font-size="18" fill="#973CFF">+</text>
     <!-- active tab -->
     <path d="M96 44 Q104 44 104 36 L104 18 Q104 10 112 10 L296 10 Q304 10 304 18 L304 36 Q304 44 312 44 Z" fill="#FEF8EC"/>
     <circle cx="124" cy="25" r="6" fill="#A66BFF"/>
-    <text x="138" y="30" font-size="13" fill="#A66BFF" font-weight="600">Wisteria Lily</text>
-    <text x="280" y="30" font-size="13" fill="#A66BFF">×</text>
+    <text x="138" y="30" font-size="13" fill="#8556CC" font-weight="600">Wisteria Lily</text>
+    <text x="280" y="30" font-size="13" fill="#8556CC">×</text>
     <!-- toolbar -->
     <rect y="44" width="960" height="44" fill="#FEF8EC"/>
-    <g fill="none" stroke="#A66BFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <g fill="none" stroke="#973CFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
       <path d="M30 66 h14 M30 66 l6 -6 M30 66 l6 6"/>
       <path d="M78 66 h-14 M78 66 l-6 -6 M78 66 l-6 6" opacity="0.45"/>
       <path d="M108 60 a8 8 0 1 0 2 6 M110 56 v5 h-5"/>
@@ -40,7 +40,7 @@
     <rect x="250" y="285" width="460" height="46" rx="23" fill="#F2EDDE"/>
     <circle cx="280" cy="308" r="8" fill="none" stroke="#8556CC" stroke-width="2.2"/>
     <path d="M286 314 l6 6" stroke="#8556CC" stroke-width="2.2" stroke-linecap="round"/>
-    <text x="304" y="313" font-size="15" fill="#9FABAD">Search or type a URL</text>
+    <text x="304" y="313" font-size="15" fill="#6B675C">Search or type a URL</text>
     <g font-size="12" fill="#005661" text-anchor="middle">
       <circle cx="330" cy="400" r="24" fill="#EDE1FF"/><circle cx="330" cy="400" r="9" fill="#A66BFF"/><text x="330" y="444">Kiro</text>
       <circle cx="430" cy="400" r="24" fill="#EDE1FF"/><circle cx="430" cy="400" r="9" fill="#00B368"/><text x="430" y="444">Strava</text>

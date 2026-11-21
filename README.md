@@ -61,10 +61,10 @@ to the editor colors they borrow from.
 | `background_tab` | `#F0E9D6` | `tab.inactiveBackground` |
 | `background_tab_inactive` | `#F9F1E1` | `titleBar.inactiveBackground` |
 | `toolbar` | `#FEF8EC` | `editor.background` / `tab.activeBackground` |
-| `tab_text` | `#A66BFF` | `tab.activeForeground` |
-| `tab_background_text` | `#888477` | `tab.inactiveForeground` |
-| `tab_background_text_inactive` | `#A0ABAC` | `editorLineNumber.foreground` |
-| `toolbar_button_icon` | `#A66BFF` | `activityBar.foreground` |
+| `tab_text` | `#8556CC` | `banner.iconForeground` |
+| `tab_background_text` | `#6B675C` | `tab.inactiveForeground`, darkened |
+| `tab_background_text_inactive` | `#706C60` | `tab.inactiveForeground`, darkened |
+| `toolbar_button_icon` | `#973CFF` | `badge.background` |
 | `toolbar_text`, `bookmark_text` | `#005661` | `editor.foreground` |
 | `omnibox_background` | `#F2EDDE` | `editorWidget.background` |
 | `omnibox_text` | `#005661` | `editor.foreground` |
@@ -76,14 +76,25 @@ to the editor colors they borrow from.
 | `frame_incognito` | `#003B42` | `terminal.ansiBlack` |
 | `frame_incognito_inactive` | `#004D57` | `terminal.ansiBrightBlack` |
 | `tab_background_text_incognito` | `#BBC3C4` | `terminal.ansiBrightWhite` |
-| `tab_background_text_incognito_inactive` | `#8CA6A6` | `terminal.ansiWhite` |
+| `tab_background_text_incognito_inactive` | `#A8BABA` | `terminal.ansiWhite`, lightened |
 
 Incognito windows get a deep teal frame taken from the terminal palette, so you can
 tell at a glance which window you're in.
 
+### Contrast
+
+All text meets WCAG 2 AA (4.5:1) against its background, and toolbar icons and the
+New Tab logo meet the 3:1 non-text minimum. Where an editor color was too pale for
+Chrome's small tab titles, the theme uses a darker sibling from the same palette.
+Check after any color change:
+
+```sh
+./scripts/contrast.py
+```
+
 ## Develop
 
-1. Edit `manifest.json`. Colors are `[R, G, B]` arrays.
+1. Edit `manifest.json`. Colors are `[R, G, B]` arrays. Run `./scripts/contrast.py`.
 2. Reload the extension in `chrome://extensions`.
 
 The icon and the preview are drawn in `assets/*.svg`. To re-render them:
